@@ -1,0 +1,23 @@
+*,body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+
+/* main 区域 */
+#container{
+  min-width: 1280px;
+  background-color: red;
+}
