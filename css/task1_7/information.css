@@ -1,0 +1,174 @@
+#information{
+  width:100%;
+  height:1087px;
+  background-color: white;
+}
+#information .part_1{
+  width:100%;
+  height:566px;
+}
+#information .part_1 .banner{
+  position: relative;
+  height:100%;
+  width:66%;
+  background:url(../../images/task1_7/info1_bac.jpg);
+  background-size: cover;
+  padding-top:134px;
+  text-align: center;
+  line-height: 1;
+}
+#information .part_1 .banner:after{
+  content: '';
+  width:0;
+  height:0;
+  border-right:30px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;      /*三角*/
+  position: absolute;
+  right:-15px;
+  top:50%;
+  transform: translateX(-50%);
+}
+#information .part_1 .banner .line_1{
+  font-size: 49.47px;
+  color:white;
+  font-family: "微软雅黑";
+}
+#information .part_1 .banner .line_2{
+  font-size: 157.79px;
+  color:white;
+  font-family: "微软雅黑";
+}
+#information .part_1 .banner .line_3,.line_4{
+  font-size: 21.91px;
+  color:white;
+  font-family: "微软雅黑";
+}
+#information .part_1 .info{
+  position: relative;
+  padding-top: 165px;
+  width:34%;
+  height:100%;
+  width:
+  text-align: center;
+}
+#information .part_1 .info p{
+  width:292px;
+  margin:0 auto;
+  font-size:12px;
+  color: #ACA7A7;
+  font-family: "宋体";
+  margin-top: 31px;
+}
+#information .part_1 .info h3{
+  text-align: center;
+  font-size:20px;
+  color: black;
+}
+#information .part_1 .info h3 span{
+  color: #E7504E;
+}
+#information .part_1 .info .btn{
+  display: block;
+  width:105px;
+  height:33px;
+  border: 1px solid #E4676A;
+  text-align: center;
+  color:#E4676A;
+  line-height: 33px;
+  margin-top: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition:all 0.5s;
+}
+#information .part_1 .info .btn:hover{
+  color:white;
+  background-color: #E4676A;
+}
+#information .part_1 .info ul{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  margin-top: 26px;
+}
+#information .part_1 .info ul li{
+  display: inline-block;
+  width:12px;
+  height:12px;
+  border-radius:50%;                /*圆*/
+  border:1px solid #929292;
+  background-color: white;
+  cursor: pointer;
+}
+#information .part_1 .info ul li.active{
+  background-color: #929292;
+}
+#information .part_2{
+  width:100%;
+  height:521px;
+}
+#information .part_2 ul{
+  width:100%;
+  height:100%;
+}
+#information .part_2 li{
+  float: left;
+  width:33%;
+  height:100%;
+  text-align: center;
+  font-size: 21px;
+  font-family: "黑体";
+  padding-top: 173px;
+}
+#information .part_2 li .btn{
+  display: inline-block;
+  width:170px;
+  height:43px;
+  margin-top: 25px;
+  line-height: 43px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#information .part_2 .first_part .btn:hover{
+  color: #E8504E;
+  background-color: white;
+}
+#information .part_2 .first_part{
+  color: white;
+  background-color: #E8504E;
+
+}
+#information .part_2 li.first_part .btn{
+  border: 1px solid white ;
+}
+#information .part_2 .second_part{
+  color:black;
+  background-color: white;
+
+}
+#information .part_2 .second_part .btn:hover{
+  color:white;
+  background-color: #E8504E;
+}
+#information .part_2 li.second_part .btn{
+  color: #E8504E;
+  border: 1px solid #E8504E ;
+}
+#information .part_2 .third_part{
+  position: relative;
+  background: url(../../images/task1_7/info2_bac.jpg);
+  background-size: cover;
+}
+#information .part_2 .third_part:after{
+  content: '';
+  width:0;
+  height:0;
+  border-left:30px solid white;
+  border-top:15px solid transparent;
+  border-bottom:15px solid transparent;
+  position: absolute;
+  left:0;
+  top:50%;
+  transform: translateY(-50%);
+}*/

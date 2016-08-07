@@ -1,0 +1,132 @@
+#volunteer{
+  with:100%;
+  height:750px;
+  background-color: white;
+  padding-top: 120px;
+  text-align: center;
+}
+#volunteer .up_part h3{
+  font-size: 21px;
+  color: #312D2F;
+  font-family: "黑体";
+}
+#volunteer .up_part  span{
+  display:inline-block;
+  width:30px;
+  height:2px;
+  background-color: #EA6664;
+}
+#volunteer .up_part p{
+  width:424px;
+  font-size: 12px;
+  color: #ACA6A6;
+  font-family: "微软雅黑";
+  margin-top:15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#volunteer .down_part{
+  margin-top: 107px;
+}
+#volunteer .down_part .wrapper{
+  width:1020px;
+  height:283px;
+  margin: 0 auto;
+}
+/*#volunteer .down_part .wrapper:after{
+  content:'';
+  width:0;
+  height:0;
+  display: block;
+  clear: both;
+}*/                                           /*??????????*/
+volunteer .down_part .left_part{
+  width:363px;
+  height:100%;
+  text-align: left;
+  line-height: 1;
+}
+#volunteer .down_part .left_part .para{
+  /*position: relative;*/
+  width:286px;
+  margin-bottom: 39px;
+}
+#volunteer .down_part .left_part h3{
+  font-size: 14px;
+  color:black;
+  font-family: "黑体";
+  margin-bottom: 26px;
+}
+#volunteer .down_part .left_part p{
+  font-size: 12px;
+  color: #BCBCBC;
+  font-family: "宋体";
+}
+#volunteer .down_part .left_part  a{
+  /*position: relative;*/
+  text-align: right;
+  display:block;
+  font-size: 12px;
+  color: #BCBCBC;
+  font-family: "宋体";
+}
+#volunteer .down_part .left_part  a span{
+  float: right;
+  cursor: pointer;
+}
+/*#volunteer .down_part .left_part  a:after{
+  content:'';
+  width:0;
+  height:0;
+  display: block;
+  clear: both;
+}*/
+#volunteer .down_part .left_part  a i{
+  display: inline-block;
+  width:10px;
+  height:10px;
+  overflow: hidden;
+  margin-right:10px;
+}
+#volunteer .down_part .left_part  a i:after{
+  content:'';
+  display: block;
+  width:14px;
+  height:14px;
+  margin-left:-3px;
+  margin-top:-11px;
+  border: 1px solid #BCBCBC;
+  transform: rotate(45deg);
+}
+#volunteer .down_part .right_part{
+  width:656px;
+  height:100%;
+}
+#volunteer .down_part .right_part input,textarea{
+  float:left;
+  height:40px;
+  font-size: 12px;
+  padding-left: 15px;
+  background-color: #EDEDEF;
+  border:none;
+  margin-bottom: 14px;
+  margin-right: 17px;
+}
+#user_address,#user_contact,#user_name,#user_age{
+  width:311px;
+}
+#user_des{
+  width:639px;
+  height:121px;
+  padding-top: 13px;
+  resize: none;
+}
+#sub_btn{
+  width:639px;
+  font-size: 14px;
+  color:#312D2F;
+  font-family:"黑体";
+
+}
