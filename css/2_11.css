@@ -1,0 +1,41 @@
+/*tre:
+box-shadow:水平阴影位置／竖直阴影位置／阴影模糊距离／阴影尺寸／阴影颜色;
+
+ */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+button {
+	border:0;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	padding: 5px;
+	margin:20px 5px;
+	cursor: pointer;
+	background-color: #fff;
+}
+button:active{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+div {
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+.default{
+	background-color: #fff;
+	color: black;
+}
+.active {
+	background-color: pink;
+	color: #fff;
+}
+.found {
+	background-color: #74BBFF;
+	color: #fff;
+}
